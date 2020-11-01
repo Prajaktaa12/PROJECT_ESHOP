@@ -1,0 +1,8 @@
+input[type="radio"] {
+    display: none;
+}
+
+.fa-star-o{
+    cursor: pointer;
+    transition: color 200ms;
+}

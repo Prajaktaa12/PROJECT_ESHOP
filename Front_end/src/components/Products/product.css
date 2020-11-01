@@ -1,0 +1,19 @@
+
+.fa-heart{
+    color: rgb(248, 77, 77);
+}
+
+.img{
+   align-self: center;
+   height: 230px;
+   width:150px;
+}
+
+.productprice{
+    color: rgb(8, 8, 8);
+    font-style:italic;
+}
+
+.product-card{
+    margin: 2px;
+}

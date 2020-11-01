@@ -1,0 +1,23 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    /* background-color: #2196F3; */
+    padding: 2px;
+  }
+  .grid-item {
+    /* background-color: rgba(156, 118, 118, 0.8); */
+    border: 1px solid white;
+    padding: 2px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .home-img{
+    height: 476px;
+    width: 1280px;
+  }
+
+  .Carousel{
+    height: 476px;
+    width: 1280px;
+  }

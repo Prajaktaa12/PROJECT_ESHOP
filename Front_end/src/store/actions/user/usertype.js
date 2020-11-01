@@ -1,0 +1,9 @@
+export const USER_LOGIN = "USER_LOGIN";
+export const LOADING = "LOADING";
+export const USER_REGISTER = "USER_REGISTER";
+export const LOGGEDIN_USER = "LOGGEDIN_USER";
+export const ERROR_DATA = "ERROR_DATA";
+export const LOG_OUT = "LOG_OUT";
+export const LOGGED_USER = "LOGGED_USER";
+export const FORGOT_PASSWORD = "FORGOT_PASSWORD";
+export const RESET_PASSWORD = "RESET_PASSWORD";

@@ -1,0 +1,27 @@
+/* .image{
+    position: relative;
+    text-align: center;
+}
+.centered{
+    position: absolute;
+    bottom:25px;
+    right:700px;
+    left:450px;
+    color:wheat;
+    font-style: italic;
+    font-family: fantasy;
+} */
+.container{
+    display: flex;
+    justify-content:center;
+    flex-direction:row;
+    margin-top: 125px;
+}
+.price{
+    text-decoration-line: line-through;
+    font-size: x-small;
+}
+.offer{
+    color: red;
+    font-size:small;
+}
