@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./search.css";
-import { Navbar, Nav, Button } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import SearchProduct from "../../store/actions/search/search";
 import { FetchProductById } from "../../store/actions/product/product";
 import { Link } from "react-router-dom";
@@ -36,7 +36,7 @@ class Search extends Component {
                   type="text"
                   placeholder="search here"
                   className="search-input"
-                  // onClick={() => this.props.history.push("/search/")}
+                  onClick={() => this.props.history.push("/Search/:name")}
                 />
                 <button className="button">
                   <i
@@ -49,7 +49,7 @@ class Search extends Component {
             </form>
           </div>
         </div>
-        {this.props.search.map((data) => (
+        {/* {this.props.search.map((data) => (
           <div className="col-md-3" key={data._id}>
             <div className="card product-card">
               <img
@@ -90,8 +90,7 @@ class Search extends Component {
               </div>
             </div>
           </div>
-        ))}
-
+        ))} */}
         <div className="offers">
           <img
             className="image"

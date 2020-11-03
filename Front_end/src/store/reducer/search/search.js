@@ -4,16 +4,12 @@ import {
   ERROR,
 } from "../../actions/search/search_type";
 
-let INITIAL_STATE = {
-  loading: true,
-  searchResult: [],
-};
-const SearchReducer = (state = INITIAL_STATE, action) => {
+const SearchReducer = (state = {}, action) => {
   switch (action.type) {
     case LOADING:
-      return { ...state, loading: state.loading };
+      return { loading: true };
     case SEARCH_PRODUCT:
-      return { ...state, searchResult: action.payload, loading: false };
+      return { data: action.payload, loading: false };
     case ERROR:
       return { error: action.payload };
     default:

@@ -45,7 +45,7 @@ class App extends Component {
           <Route path="/aboutus" component={AboutUs} />
           <Route path="/wishlist" component={Wishlist} />
           <Route path="/cart" component={Cart} />
-          <Route path="/search/:name" component={Search} />
+          <Route path="/Search/:name" component={Search} />
           <Privateroute path="/checkout" component={Checkout} />
           <Privateroute path="/payment" component={Payment} />
         </div>

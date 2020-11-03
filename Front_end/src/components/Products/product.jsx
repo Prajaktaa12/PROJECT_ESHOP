@@ -88,7 +88,7 @@ class Shop extends Component {
                     {this.props.user ? (
                       <button className="btn btn-sm">
                         <Link as={Link} to={`/updateproduct/${data._id}`}>
-                          <i class="fa fa-pencil" aria-hidden="true"></i>
+                          <i className="fa fa-pencil" aria-hidden="true"></i>
                         </Link>
                       </button>
                     ) : null}
